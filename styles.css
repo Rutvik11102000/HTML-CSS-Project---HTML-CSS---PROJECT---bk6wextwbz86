@@ -26,8 +26,8 @@ body{
     border:3px solid #eee;
     border-radius: 15px;
     height:600px;
-    width:340;
-
+    width:320px;
+    /*box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;*/
 }
 
 /*
