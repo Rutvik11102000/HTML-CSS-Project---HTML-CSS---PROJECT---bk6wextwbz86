@@ -6,9 +6,9 @@
 
 /* body*/
 body{
-    background-color: rgba(21, 208, 241, 0.756);
+    background-color: rgba(186, 24, 219, 0.804);
     
-    font-family:'Roboto',sans-serif;
+   /* font-family:'Roboto',sans-serif;*/
     display:flex;
     
     align-items: center;
@@ -88,6 +88,6 @@ nav ul li p{
 
 /* hover effect*/
 nav ul li:hover, nav ul li.active{
-    color: rgba(21, 230, 241, 0.756);
+    color: #8e44ad;
 
 }
