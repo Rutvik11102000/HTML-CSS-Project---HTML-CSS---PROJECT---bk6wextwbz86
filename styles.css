@@ -1,32 +1,30 @@
-
-
-*{
+* {
     box-sizing: border-box;
 }
 
 /* body*/
-body{
+body {
     background-color: rgba(186, 24, 219, 0.804);
-    
-   /* font-family:'Roboto',sans-serif;*/
-    display:flex;
-    
+
+    /* font-family:'Roboto',sans-serif;*/
+    display: flex;
+
     align-items: center;
     justify-content: center;
     height: 100vh;
-    margin:0;
-   
-    
+    margin: 0;
+
+
 }
 
 /* border and align whole content*/
-.phone{
+.phone {
     position: relative;
     overflow: hidden;
-    border:3px solid #eee;
+    border: 3px solid #eee;
     border-radius: 15px;
-    height:600px;
-    width:320px;
+    height: 600px;
+    width: 320px;
     /*box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;*/
 }
 
@@ -49,37 +47,37 @@ body{
 */
 
 /* icons visiblity*/
-nav{
+nav {
     position: absolute;
-    bottom : 0;
+    bottom: 0;
     left: 0;
     margin-top: -5px;
     width: 100%;
 }
 
 /* navigaion bar*/
-nav ul{
+nav ul {
     background-color: #fff;
-    display:flex;
+    display: flex;
     list-style: none;
     padding: 0;
     margin: 0;
-    height: 60px;
+    height: 50px;
 
 }
 
 /* icons and name align*/
-nav li{
+nav li {
     color: #777;
     cursor: pointer;
     flex: 1;
     padding: 10px;
     text-align: center;
-    
+
 }
 
 /* icons height align*/
-nav ul li p{
+nav ul li p {
     font-size: 12px;
     margin: 2px 0;
 
@@ -87,7 +85,8 @@ nav ul li p{
 
 
 /* hover effect*/
-nav ul li:hover, nav ul li.active{
+nav ul li:hover,
+nav ul li.active {
     color: #8e44ad;
 
 }
